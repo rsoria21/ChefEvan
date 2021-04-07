@@ -11,6 +11,8 @@ body {
 
 /* header begining */
 .header {
+  width: 100vw;
+  height: 100vh;
   background-color: #2e4d52;
   background-image: url(/Images/IMG_0184.jpg);
   background-repeat: no-repeat;
@@ -125,6 +127,11 @@ body {
 
 .featured-img {
   width: 50%;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  padding-right: 8rem;
+  overflow: hidden;
 }
 
 .feature-heading {
