@@ -268,15 +268,14 @@ body {
 #cta {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   padding: 20rem 0;
   background-image: url(/Images/IMG_0186.jpg);
   /* in case we want image to stay fixed */
   background-repeat: no-repeat;
-  background-position: right;
   background-attachment: fixed;
   background-position: center;
-  background-size: cover;
+  /* background-size: cover; */
 }
 
 .cta-btn {
