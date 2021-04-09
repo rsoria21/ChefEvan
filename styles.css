@@ -287,7 +287,7 @@ body {
   text-align: center;
   font-size: 3rem;
   padding: 3rem;
-  width: 12rem;
+  /* width: 12rem; */
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
