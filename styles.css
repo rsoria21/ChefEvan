@@ -17,8 +17,8 @@ body {
   background-image: url(/Images/IMG_0184.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
-  background-size: 100%;
+  /* background-attachment: fixed; */
+  /* background-size: 100%; */
   padding: 14rem 0;
   text-align: center;
   min-width: 100%;
