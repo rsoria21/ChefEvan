@@ -262,20 +262,27 @@ body {
   }
 }
 /* cake styles end */
+/* .header {
+  background-color: #2e4d52;
+  background-image: url(/Images/IMG_0184.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding: 3rem 0;
+} */
 
 /* call to action */
 #cta {
-  display: flex;
-  justify-content: center;
-  /* align-items: center; */
-  padding: 20rem 0;
+  /* display: flex;
+  justify-content: center; */
+  text-align: center;
   background-image: url(/Images/IMG_0186.jpg);
-  /* in case we want image to stay fixed */
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-attachment: fixed;
-  background-position: center;
+  /* background-position: center; */
   background-size: cover;
-  max-width: 100%;
+  padding: 20rem 0;
 }
 
 .cta-btn {
