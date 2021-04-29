@@ -19,9 +19,9 @@ body {
   background-position: center;
   /* background-attachment: fixed; */
   background-size: 100%;
-  padding: 14rem 0;
+  padding: 12rem 5rem 12rem 5rem;
   text-align: center;
-  min-width: 100%;
+  /* min-width: 100%; */
 }
 
 .header-text {
