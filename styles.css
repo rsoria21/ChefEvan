@@ -374,10 +374,6 @@ body {
   flex-flow: wrap;
   padding: 15rem 0;
   background-color: #292c2c;
-  background-image: url(/Images/brownCake.png);
-  background-repeat: no-repeat;
-  background-position: right;
-  background-attachment: fixed;
 }
 
 .contact-section {
@@ -388,7 +384,12 @@ body {
 }
 
 .contact-img {
-  width: 60%;
+  margin-top: 6.75rem;
+  width: 80%;
+}
+
+.padding-top {
+  padding-top: 4rem;
 }
 
 .fa {
