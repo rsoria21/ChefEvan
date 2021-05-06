@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,500&display=swap"
       rel="stylesheet">
     <title>Chef Mike</title>
+    <link rel="shortcut icon" type="image/png" href="/Images/favicon.png" />
   </head>
   <body>
     <!-- header start -->
@@ -24,9 +25,10 @@
     <!-- navbar start -->
 
     <div id="navbar" class="topnav">
-      <a class="active" href="#home">Home</a>
-      <a class="move-right" href="#Cakes">Recipes</a>
-      <a class="move-right" href="#contact">Contact</a>
+      <a class="active" href="#home">HOME</a>
+      <a class="move-right" href="#contact">CONTACT</a>
+      <a class="move-right" href="#contact">ABOUT</a>
+      <a class="move-right" href="#Cakes">RECIPES</a>
       <a href="javascript:void(0);" class="icon" onclick="responsiveNav()">
         <i class="fas fa-bars"></i>
       </a>
@@ -35,20 +37,13 @@
     <!-- navbar end -->
 <!-- featured start -->
     <section id="featured">
-      <h2 class="feature-heading">Wide range in options</h2>
+      <h2 class="feature-heading">ABOUT THE CHEF</h2>
       <div class="featured-sections">
         <div class="featured-text-section">
-          <img class="featured-img" src="/Images/IMG_0264.jpg" alt="" srcset="">
-          <p class="feature-text">This delicous meal will bring a sille to your face. Made with fresh ingrediant scourced from a local market to your table. Check out the recipe today.</p>
-          <a class="feature-btn" href="/comingSoon.html">Recipes</a>
+          <img class="featured-img" src="/Images/chef.jpg" alt="" srcset="">
+          <p class="feature-text">This is culinary professional Chef Mike. After 10 years of Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis optio illo consequatur, explicabo nulla illum ullam alias hic exercitationem fugit cum recusandae ut aspernatur commodi itaque sapiente aut dolorum labore.</p>
           </div>
         </div>
-        
-        <!-- <img class="featured-img" src="/Images/IMG_0264.jpg" alt="" srcset="">
-      </div> -->
-      
-      
-      
     </section>
     <!-- featured end -->
 
@@ -56,11 +51,7 @@
 
     <!-- cakes card start -->
     <section id="main-cakes">
-      <div class="cakes-container">
-        <!-- <div class="cakes-heading">
-          <h1>testing</h1>
-        </div> -->
-      </div>
+      <h2 class="menu-header">THE MENU</h2>
       <div class="cakes-row">
         <div class="cakes-card">
           <div class="cakes-header">
@@ -92,6 +83,36 @@
             <a href="/comingSoon.html" class="cakes-btn">Order</a>
           </div>
         </div>
+        <div class="cakes-card">
+          <div class="cakes-header">
+            <img class="main-cakes" src="/Images/Item-one.jpg" alt="">
+          </div>
+          <div class="cakes-body">
+            <h2>Item Four</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="/comingSoon.html" class="cakes-btn">Order</a>
+          </div>
+        </div>
+        <div class="cakes-card">
+          <div class="cakes-header">
+            <img class="main-cakes" src="/Images/Item-two.jpg" alt="">
+          </div>
+          <div class="cakes-body">
+            <h2>Item Five</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="/comingSoon.html" class="cakes-btn">Order</a>
+          </div>
+        </div>
+        <div class="cakes-card">
+          <div class="cakes-header">
+            <img class="main-cakes" src="/Images/Item-three.jpg" alt="">
+          </div>
+          <div class="cakes-body">
+            <h2>Item Six</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="/comingSoon.html" class="cakes-btn">Order</a>
+          </div>
+        </div>
       </div>
     </section>
     <!-- cakes card end -->
@@ -105,26 +126,57 @@
 
     <!-- reviews -->
     <section id="reviews">
-      <div class="mySlides">
-        <h1>
-          <i>"Wow! Great recipes, keep it up "</i>
-        </h1>
-        <i class="fab fa-angellist"></i>
-        <!-- <img class="skill-image" src="" alt="img" /> -->
+      <div class="slideshow-container">
+        <h2 class="slides-heading">SEASONAL</h2>
+        <!-- Full-width images with number and caption text -->
+        <div class="slides fade">
+          <img class="skill-image" src="/Images/halfPlate.jpg" />
+          <div class="text">
+            Fantastic showcase of food by Chef Mike. Enjoy!
+          </div>
+        </div>
+      
+        <div class="slides fade">
+          <img class="skill-image" src="/Images/yellowblack.jpg" />
+          <div class="text">
+            Fantastic showcase of food by Chef Mike. Enjoy!
+          </div>
+        </div>
+      
+        <div class="slides fade">
+          <img class="skill-image" src="/Images/ceggs.jpg" />
+          <div class="text">
+            Fantastic showcase of food by Chef Mike. Enjoy!
+          </div>
+        </div>
+      
+        <div class="slides fade">
+          <img class="skill-image" src="/Images/IMG_0184.jpg" />
+          <div class="text">
+            Fantastic showcase of food by Chef Mike. Enjoy!
+          </div>
+        </div>
+      
+        <div class="slides fade">
+          <img class="skill-image" src="/Images/Item-one.jpg" />
+          <div class="text">
+            Fantastic showcase of food by Chef Mike. Enjoy!
+          </div>
+        </div>
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
       </div>
-      <div class="mySlides">
-        <h1>
-          <i>"So easy to follow along with the recipes, I love it."</i>
-        </h1>
-        <i class="fas fa-award"></i>
-        <!-- <img class="skill-image" src="" alt="img" /> -->
-      </div>
-      <div class="mySlides">
-        <h1>
-          <i>"I will keep coming back for more, Thanks Chef Mike"</i>
-        </h1>
-        <i class="fas fa-cat"></i>
-        <!-- <img class="skill-image" src="" alt="img" /> -->
+      <!-- <br /> -->
+      
+      <!-- The dots/circles -->
+      <div class="circles">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
       </div>
     </section>
     
@@ -132,12 +184,15 @@
 
     <!-- contact -->
     <section id="contact">
-      <div class="contact-section">
-        <h2 class="header-text">Chef Mike</br>At</br>Your Service</h2>
-        <a href="/comingSoon.html" class="cta-btn padding-top"><span>Contact</span></a>
-      </div>
-      <div class="contact-section">
-        <img class="contact-img" src="/Images/chef.jpg" alt="Image of Chef Mike">
+      <h2 class="contact-header">Get In Touch</h2>
+      <div class="contact">
+        <div class="contact-section">
+          <h2 class="header-text">Chef Mike</br>At</br>Your Service</h2>
+          <a href="/comingSoon.html" class="cta-btn padding-top"><span>Contact</span></a>
+        </div>
+        <div class="contact-section">
+          <img class="contact-img" src="/Images/chef.jpg" alt="Image of Chef Mike">
+        </div>
       </div>
     </section>
     <!-- contact end  -->
@@ -148,7 +203,7 @@
         <a href="#" class="fa fa-facebook"></a>
         <a href="#" class="fa fa-twitter"></a>
         <a href="#" class="fa fa-instagram"></a>
-        <h4> &copy Chef Mike 2021</h4>
+        <h4 class="footer-text"> &copy Chef Mike 2021 Made by <a class="footer-link" href="https://ricksoria.com/" target="_blank">RickSoria</a></h4>
       </footer>
     </section>
     <!-- footer end -->

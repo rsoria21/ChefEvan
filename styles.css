@@ -1,12 +1,13 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #161616;
+  background-color: #a39a9ab7;
   color: rgb(211, 211, 211);
   font-size: 28px;
   font-family: "Playfair Display", serif;
   font-style: italic;
   box-sizing: border-box;
+  text-align: center;
 }
 
 /* header begining */
@@ -36,9 +37,10 @@ body {
   text-shadow: -1px -1px 0 rgb(102, 40, 24), 1px -1px 0 rgb(102, 40, 24),
     -1px 1px 0 rgb(102, 40, 24), 1px 1px 0 rgb(102, 40, 24);
   font-size: 6rem;
+  margin-top: 2rem;
 }
 
-.header-btn {
+/* .header-btn {
   text-decoration: none;
   border: 4px solid rgb(205, 252, 240);
   border-radius: 10px;
@@ -47,13 +49,13 @@ body {
   background-color: rgb(102, 40, 24);
   color: rgb(255, 250, 250);
   cursor: pointer;
-}
+} */
 /* header end */
 
 /* nav begining */
 #navbar {
   overflow: hidden;
-  background-color: #313131;
+  background-color: #161616;
 }
 
 #navbar a {
@@ -107,32 +109,27 @@ body {
     text-align: left;
   }
 }
-/* sticky NavBar */
-
-/* .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 60px;
-} */
 
 /* nav end */
-
-.content {
-  padding: 16px;
-}
 
 /* featured begining */
 #featured {
   padding: 12rem 0;
-  background-color: #292c2c;
+  margin: 10rem 18rem;
+  border-radius: 2rem;
+  background-color: rgb(211, 211, 211);
+  background-image: url(/Images/halfPlate.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
+/* TEST FEATURE */
+
+/* END TEST */
+
 .featured-img {
-  width: 50%;
+  width: 20%;
   border-radius: 50%;
   align-items: center;
   align-self: center;
@@ -140,74 +137,67 @@ body {
 }
 
 .feature-heading {
-  font-size: 4rem;
-  padding: 16px;
+  font-size: 2rem;
+  /* padding: 16px; */
+  /* margin: 2rem 18rem; */
+  width: 50%;
+  margin: -5rem auto 2rem auto;
+  background-color: #161616;
   font-family: "Akaya Telivigala", cursive;
   text-align: center;
-}
-
-.featured-sections {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.featured-text-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  /* padding: 16px;
-  margin: 0 13rem; */
+  color: #e2e2e2;
 }
 
 .feature-text {
-  margin: 3rem 8rem;
+  font-size: 1.5rem;
+  color: #161616;
+  background-color: #c0c0c077;
+  margin: 0 5rem;
+  padding: 0 6rem;
+}
+
+@media screen and (max-width: 1200px) {
+  #featured {
+    padding: 10rem 0;
+    margin: 4.5rem 5.5rem;
+  }
+  .feature-heading {
+    font-size: 1.5rem;
+  }
+  .feature-text {
+    font-size: 1.25rem;
+    padding: 0 3rem;
+  }
 }
 
 @media screen and (max-width: 700px) {
-  .featured-section {
-    flex-direction: column;
+  #featured {
+    padding: 8rem 0;
+    margin: 4.5rem 1.5rem;
   }
-  .featured-text-section {
-    padding: 0;
-    margin: 0;
+  .feature-heading {
+    font-size: 1.25rem;
   }
   .feature-text {
-    margin: 3rem 2.5rem;
+    font-size: 1rem;
+    margin: 0 3.75rem;
+    padding: 0 2rem;
   }
 }
 
-.feature-btn {
-  text-decoration: none;
-  border: 4px solid rgb(35, 39, 38);
-  border-radius: 10px;
-  padding: 14px 28px;
-  font-size: 28px;
-  background-color: rgb(83, 83, 83);
-  color: rgb(255, 250, 250);
-  cursor: pointer;
-  align-content: right;
-}
-/* featured end */
+/* ABOUT END */
 
-/* cake styles */
+/* MENU START*/
 #main-cakes {
-  padding: 10rem 0;
+  padding: 5rem 0 10rem 0;
 }
 
-.cakes-container {
-  width: 125px;
-  margin: 50px auto;
+.menu-header {
+  color: #e2e2e2;
+  background-color: #161616;
+  width: 30%;
+  margin: -5rem auto 5rem auto;
 }
-
-/* .cakes-heading {
-  text-align: center;
-  font-size: 30px;
-  margin-bottom: 50px;
-} */
 
 .cakes-row {
   display: flex;
@@ -218,8 +208,9 @@ body {
 
 .cakes-card {
   width: 30%;
-  background: #fff;
-  /* border: 1px solid #ccc; */
+  background: rgb(228, 225, 225);
+  border: 1px solid #ccc;
+  border-radius: 2rem;
   margin-bottom: 50px;
   transition: 0.3s;
 }
@@ -227,7 +218,7 @@ body {
 .cakes-header {
   text-align: center;
   padding: 50px 10px;
-  background: linear-gradient(to right, #292c2c, rgb(136, 136, 136));
+  background: linear-gradient(to right, #292c2c, rgb(29, 29, 29));
   color: #fff;
 }
 
@@ -241,13 +232,14 @@ body {
   padding: 30px 20px;
   text-align: center;
   font-size: 2rem;
+  color: #3d3d3d;
 }
 
 .cakes-btn {
   display: block;
   color: #fff;
   text-align: center;
-  background: linear-gradient(to right, #292c2c, rgb(117, 117, 117));
+  background: linear-gradient(to right, #292c2c, rgb(29, 29, 29));
   margin-top: 30px;
   text-decoration: none;
   padding: 10px 5px;
@@ -265,6 +257,11 @@ body {
 }
 
 @media screen and (max-width: 620px) {
+  .main-cakes {
+    height: 6rem;
+    width: 100%;
+    object-fit: cover;
+  }
   .cakes-container {
     width: 100%;
   }
@@ -272,8 +269,12 @@ body {
     padding: 20px;
     font-size: 30px;
   }
+  .cakes-body {
+    padding: 5px 5px 25px 5px;
+    font-size: 0.75rem;
+  }
   .cakes-card {
-    width: 80%;
+    width: 30%;
   }
 }
 /* cake styles end */
@@ -352,46 +353,181 @@ body {
 }
 /* call to action end */
 
-/* reviews */
+/* Slides */
 
 #reviews {
-  padding: 12rem 0;
+  padding: 2rem 0;
+  background-color: #161616;
+  margin: 4rem 9rem;
+  border-radius: 2rem;
 }
-
-.mySlides {
-  display: none;
-  padding: 5rem 6rem;
-  text-align: center;
-}
-
 .skill-image {
-  width: 10%;
-  border-radius: 100%;
+  width: 40%;
+  padding: 5rem;
+  border-radius: 20%;
   margin: 20px;
 }
 
+.slideshow-container {
+  /* max-width: 1000px; */
+  position: relative;
+  margin: auto;
+}
+.slides-heading {
+  font-size: 2rem;
+  color: #e2e2e2;
+  width: 30%;
+  margin: 1rem auto 1.75rem auto;
+}
+
 @media screen and (max-width: 700px) {
-  .mySlides {
-    margin-top: 10rem;
+  #reviews {
+    padding: 1.5rem 0;
+    margin: 5rem 2rem;
   }
   .skill-image {
-    width: 50%;
+    width: 60%;
+  }
+  .slides-heading {
+    color: #e2e2e2;
+    background-color: #161616;
+    width: 40%;
+    margin: 1rem auto 1.75rem auto;
   }
 }
 
-/* reviews end */
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #ebebeb;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #c0c0c0;
+}
+
+/* Caption text */
+.text {
+  color: #ebebeb;
+  font-size: 1.5rem;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+/* .numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+} */
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #ebebeb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* dots/Circles */
+.circles {
+  text-align: center;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Slides End */
 
 /* contact */
-#contact {
+.contact-header {
+  font-size: 3rem;
+  color: #e2e2e2;
+  background-color: #161616;
+  width: 30%;
+  margin: 15rem auto 0.5rem auto;
+}
+.contact {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-flow: wrap;
-  padding: 15rem 0;
-  background-color: #292c2c;
+  padding: 5rem 0 10rem 0;
+  /* background-color: #292c2c; */
 }
 @media screen and (max-width: 700px) {
-  #contact {
+  .contact-header {
+    font-size: 1.55rem;
+    width: 40%;
+    margin: 10rem auto 0.5rem auto;
+  }
+  .contact {
     flex-direction: column-reverse;
   }
 }
@@ -404,7 +540,6 @@ body {
 }
 
 .contact-img {
-  margin-top: 6.75rem;
   width: 80%;
   border-radius: 10px;
 }
@@ -449,9 +584,14 @@ body {
   background-color: #1a1a1a;
 }
 
-footer {
-  padding: 1rem 0;
-  /* margin-top: 0.5rem; */
+.footer-text {
+  font-size: 15px;
+  text-decoration: none;
+  color: #525252;
+}
+.footer-link {
+  text-decoration: none;
+  color: #525252;
 }
 /* footer end */
 
