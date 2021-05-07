@@ -16,7 +16,7 @@
   </head>
   <body>
     <!-- header start -->
-    <div class="header">
+    <div id="home" class="header">
       <h2 class="header-text">Hello</br>I'm Chef Mike</h2>
       <!-- <a class="header-btn" href="#">Pasteles</a> -->
     </div>
@@ -27,8 +27,8 @@
     <div id="navbar" class="topnav">
       <a class="active" href="#home">HOME</a>
       <a class="move-right" href="#contact">CONTACT</a>
-      <a class="move-right" href="#contact">ABOUT</a>
-      <a class="move-right" href="#Cakes">RECIPES</a>
+      <a class="move-right" href="#featured">ABOUT</a>
+      <a class="move-right" href="#main-cakes">RECIPES</a>
       <a href="javascript:void(0);" class="icon" onclick="responsiveNav()">
         <i class="fas fa-bars"></i>
       </a>
@@ -188,7 +188,7 @@
       <div class="contact">
         <div class="contact-section">
           <h2 class="header-text">Chef Mike</br>At</br>Your Service</h2>
-          <a href="/comingSoon.html" class="cta-btn padding-top"><span>Contact</span></a>
+          <a href="/comingSoon.html" class="cta-btn"><span>Contact</span></a>
         </div>
         <div class="contact-section">
           <img class="contact-img" src="/Images/chef.jpg" alt="Image of Chef Mike">
@@ -203,7 +203,13 @@
         <a href="#" class="fa fa-facebook"></a>
         <a href="#" class="fa fa-twitter"></a>
         <a href="#" class="fa fa-instagram"></a>
-        <h4 class="footer-text"> &copy Chef Mike 2021 Made by <a class="footer-link" href="https://ricksoria.com/" target="_blank">RickSoria</a></h4>
+        <div class="footer-links-container">
+          <a class="footer-link" href="#home">HOME</a>
+          <a class="footer-link" href="#contact">CONTACT</a>
+          <a class="footer-link" href="#featured">ABOUT</a>
+          <a class="footer-link" href="#main-cakes">RECIPES</a>
+        </div>
+        <h4 class="footer-text"> &copy Chef Mike 2021 Made by <a class="soria-link" href="https://ricksoria.com/" target="_blank">RickSoria</a></h4>
       </footer>
     </section>
     <!-- footer end -->

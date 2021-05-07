@@ -8,6 +8,7 @@ body {
   font-style: italic;
   box-sizing: border-box;
   text-align: center;
+  /* border: 1px solid transparent; */
 }
 
 /* header begining */
@@ -194,6 +195,7 @@ body {
 
 .menu-header {
   color: #e2e2e2;
+  font-size: 3rem;
   background-color: #161616;
   width: 30%;
   margin: -5rem auto 5rem auto;
@@ -250,13 +252,16 @@ body {
   box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   .cakes-card {
     width: 40%;
   }
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 700px) {
+  .menu-header {
+    font-size: 1.5rem;
+  }
   .main-cakes {
     height: 6rem;
     width: 100%;
@@ -278,15 +283,6 @@ body {
   }
 }
 /* cake styles end */
-/* .header {
-  background-color: #2e4d52;
-  background-image: url(/Images/IMG_0184.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-  padding: 3rem 0;
-} */
 
 /* call to action */
 #cta {
@@ -360,12 +356,14 @@ body {
   background-color: #161616;
   margin: 4rem 9rem;
   border-radius: 2rem;
+  text-align: center;
 }
 .skill-image {
   width: 40%;
   padding: 5rem;
   border-radius: 20%;
-  margin: 20px;
+  /* margin: 20px; */
+  margin-bottom: 20px;
 }
 
 .slideshow-container {
@@ -375,6 +373,7 @@ body {
 }
 .slides-heading {
   font-size: 2rem;
+  text-align: center;
   color: #e2e2e2;
   width: 30%;
   margin: 1rem auto 1.75rem auto;
@@ -440,7 +439,7 @@ body {
 .text {
   color: #ebebeb;
   font-size: 1.5rem;
-  padding: 8px 12px;
+  /* padding: 8px 12px; */
   position: absolute;
   bottom: 8px;
   width: 100%;
@@ -519,7 +518,6 @@ body {
   justify-content: space-around;
   flex-flow: wrap;
   padding: 5rem 0 10rem 0;
-  /* background-color: #292c2c; */
 }
 @media screen and (max-width: 700px) {
   .contact-header {
@@ -542,10 +540,6 @@ body {
 .contact-img {
   width: 80%;
   border-radius: 10px;
-}
-
-.padding-top {
-  padding-top: 4rem;
 }
 
 .fa {
@@ -579,19 +573,30 @@ body {
 
 /* footer */
 #footer {
-  /* padding: 0.3rem; */
+  padding: 0.3rem 0 0.3rem 0;
   text-align: center;
   background-color: #1a1a1a;
 }
 
 .footer-text {
-  font-size: 15px;
+  font-size: 0.75rem;
   text-decoration: none;
   color: #525252;
 }
 .footer-link {
+  font-size: 1.75rem;
+  margin: 0 1.5rem 0rem 1.5rem;
   text-decoration: none;
   color: #525252;
+}
+
+.soria-link {
+  text-decoration: none;
+  color: #525252;
+}
+.footer-link:hover,
+.soria-link:hover {
+  color: #c0c0c0;
 }
 /* footer end */
 
@@ -617,8 +622,8 @@ body {
   font-family: "Playfair Display", serif;
   font-style: italic;
   color: rgb(211, 211, 211);
-  text-shadow: -1px -1px 0 rgb(102, 40, 24), 1px -1px 0 rgb(102, 40, 24),
-    -1px 1px 0 rgb(102, 40, 24), 1px 1px 0 rgb(102, 40, 24);
+  text-shadow: -1px -1px 0 rgb(26, 26, 26), 1px -1px 0 rgb(26, 26, 26),
+    -1px 1px 0 rgb(26, 26, 26), 1px 1px 0 rgb(26, 26, 26);
   font-size: 6rem;
 }
 
