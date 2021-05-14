@@ -37,6 +37,8 @@ function currentSlide(n) {
   showSlides((slideIndex = n));
 }
 
+// Slidshow
+
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("slides");
