@@ -16,7 +16,7 @@ body {
 /* header begining */
 .header {
   /* width: 100vw; */
-  background-image: url(/Images/IMG_0184.jpg);
+  background-image: url(/Images/headerOne.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -120,7 +120,7 @@ body {
   margin: 10rem 18rem;
   border-radius: 2rem;
   background-color: rgb(211, 211, 211);
-  background-image: url(/Images/halfPlate.jpg);
+  background-image: url(/Images/headerTwo.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -290,7 +290,7 @@ body {
 /* call to action */
 #cta {
   text-align: center;
-  background-image: url(/Images/CTA-pic.jpg);
+  background-image: url(/Images/decoTwo.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -301,14 +301,7 @@ body {
 
 @media screen and (max-width: 700px) {
   #cta {
-    text-align: center;
-    background-image: url(/Images/CTA-pic.jpg);
-    background-repeat: no-repeat;
     background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    padding: 20rem 0;
   }
 }
 
@@ -671,7 +664,7 @@ body {
 .coming-soon {
   /* width: 100vw; */
   background-color: #2e4d52;
-  background-image: url(/Images/IMG_0272.jpg);
+  background-image: url(/Images/headerTwo.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -679,11 +672,17 @@ body {
   text-align: center;
   padding: 12.5rem 0;
 }
-@media screen and (max-width: 600px) {
+
+/* @media screen and (max-width: 1200px) {
   .coming-soon {
     padding: 4.5rem 0;
   }
 }
+@media screen and (max-width: 700px) {
+  .coming-soon {
+    padding: 4.5rem 0;
+  }
+} */
 
 .coming-soon-text {
   font-family: "Playfair Display", serif;
