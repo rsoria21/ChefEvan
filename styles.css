@@ -620,9 +620,9 @@ body {
     font-size: 1.5rem;
     padding: 1.5rem;
   }
-  /* .contact {
-    flex-direction: column-reverse;
-  } */
+  .small-contact-text {
+    font-size: 1.5rem;
+  }
 }
 /* contact end */
 
